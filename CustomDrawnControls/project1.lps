@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="30"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WForm1"/>
+        <HasResources Value="True"/>
+        <UnitName Value="Unit1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="56" Y="43"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="/usr/share/lazarus/1.8.4/lcl/customdrawncontrols.pas"/>
+        <UnitName Value="CustomDrawnControls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3639"/>
+        <CursorPos X="37" Y="3655"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/share/lazarus/1.8.4/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1900"/>
+        <CursorPos X="58" Y="1916"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/share/lazarus/1.8.4/lcl/customdrawndrawers.pas"/>
+        <UnitName Value="CustomDrawnDrawers"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="180"/>
+        <CursorPos X="3" Y="196"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <UnitName Value="CustomDrawnControls"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="3737"/>
+        <CursorPos X="52" Y="3748"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <UnitName Value="CustomDrawn_Common"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="157"/>
+        <CursorPos X="19" Y="161"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/forms.pas"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="20"/>
+        <CursorPos X="32" Y="34"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/comctrls.pas"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="103"/>
+        <CursorPos X="45" Y="9"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/controls.pas"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="1074"/>
+        <CursorPos X="26" Y="1070"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/graphics.pas"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="234"/>
+        <CursorPos X="54" Y="250"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/amunits/src/coreunits/timer.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="63"/>
+        <CursorPos X="36" Y="87"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawndrawers.pas"/>
+        <UnitName Value="CustomDrawnDrawers"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="182"/>
+        <CursorPos X="16" Y="205"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="unit1.wfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit13>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="46" Column="14" TopLine="22"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="2964" Column="3" TopLine="2959"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="1274" Column="45" TopLine="1263"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="1408" Column="27" TopLine="1391"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="300" Column="20" TopLine="291"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="2260" Column="3" TopLine="2258"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="280" Column="19" TopLine="273"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="154" Column="56" TopLine="150"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="72" Column="21" TopLine="59"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="1045" Column="13" TopLine="1031"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="45" Column="15" TopLine="36"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="528" Column="24" TopLine="513"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="72" Column="25" TopLine="67"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="1028" Column="3" TopLine="1021"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="37" Column="14" TopLine="29"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="46" Column="14" TopLine="20"/>
+      </Position16>
+      <Position17>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="2168" Column="3" TopLine="2160"/>
+      </Position17>
+      <Position18>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="244" Column="38" TopLine="234"/>
+      </Position18>
+      <Position19>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="386" Column="4" TopLine="386"/>
+      </Position19>
+      <Position20>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="110" Column="21" TopLine="102"/>
+      </Position20>
+      <Position21>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="1647" Column="3" TopLine="1639"/>
+      </Position21>
+      <Position22>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="28" Column="14" TopLine="18"/>
+      </Position22>
+      <Position23>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="208" Column="3" TopLine="197"/>
+      </Position23>
+      <Position24>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="108" Column="21" TopLine="102"/>
+      </Position24>
+      <Position25>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="34" Column="22" TopLine="21"/>
+      </Position25>
+      <Position26>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawncontrols.pas"/>
+        <Caret Line="2075" Column="54" TopLine="2070"/>
+      </Position26>
+      <Position27>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="34" Column="22" TopLine="21"/>
+      </Position27>
+      <Position28>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="33" Column="22" TopLine="21"/>
+      </Position28>
+      <Position29>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawndrawers.pas"/>
+        <Caret Line="532" Column="36" TopLine="524"/>
+      </Position29>
+      <Position30>
+        <Filename Value="../pas2js_widget/pas2js/packages/widget/customdrawn_common.pas"/>
+        <Caret Line="1612" Column="10" TopLine="1557"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

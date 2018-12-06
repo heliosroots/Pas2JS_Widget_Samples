@@ -1,0 +1,181 @@
+{@PAS2JS_BEGIN}
+try
+  Left := 359;
+  Height := 634;
+  Top := 151;
+  Width := 1128;
+  AlphaBlend := False;
+  AlphaBlendValue := 255;
+  Caption := 'WForm1';
+  ClientHeight := 634;
+  ClientWidth := 1128;
+  OnCreate := FormCreate;
+  CDButton1 := TCDButton.Create(Self);
+  CDButton2 := TCDButton.Create(Self);
+  CDEdit1 := TCDEdit.Create(Self);
+  CDEdit2 := TCDEdit.Create(Self);
+  CDListView1 := TCDListView.Create(Self);
+  CDRadioButton1 := TCDRadioButton.Create(Self);
+  CDRadioButton2 := TCDRadioButton.Create(Self);
+  CDRadioButton3 := TCDRadioButton.Create(Self);
+  CDStaticText1 := TCDStaticText.Create(Self);
+  CDCheckBox1 := TCDCheckBox.Create(Self);
+  CDCheckBox2 := TCDCheckBox.Create(Self);
+  CDButton1.BeginUpdate;
+  try
+    CDButton1.Parent := Self;
+    CDButton1.Left := 51;
+    CDButton1.Height := 48;
+    CDButton1.Top := 24;
+    CDButton1.Width := 397;
+    CDButton1.Caption := 'CDButton1';
+    CDButton1.DrawStyle := dsDefault;
+    CDButton1.OnClick := CDButton1Click;
+    CDButton1.TabOrder := 0;
+    CDButton1.TabStop := True;
+  finally
+    CDButton1.EndUpdate;
+  end;
+  CDButton2.BeginUpdate;
+  try
+    CDButton2.Parent := Self;
+    CDButton2.Left := 51;
+    CDButton2.Height := 48;
+    CDButton2.Top := 80;
+    CDButton2.Width := 397;
+    CDButton2.Caption := 'CDButton2';
+    CDButton2.DrawStyle := dsDefault;
+    CDButton2.TabOrder := 1;
+    CDButton2.TabStop := True;
+  finally
+    CDButton2.EndUpdate;
+  end;
+  CDEdit1.BeginUpdate;
+  try
+    CDEdit1.Parent := Self;
+    CDEdit1.Left := 51;
+    CDEdit1.Height := 41;
+    CDEdit1.Top := 144;
+    CDEdit1.Width := 193;
+    CDEdit1.DrawStyle := dsDefault;
+    CDEdit1.Lines.Add('gsfgsfgsfg');
+  finally
+    CDEdit1.EndUpdate;
+  end;
+  CDEdit2.BeginUpdate;
+  try
+    CDEdit2.Parent := Self;
+    CDEdit2.Left := 51;
+    CDEdit2.Height := 41;
+    CDEdit2.Top := 224;
+    CDEdit2.Width := 193;
+    CDEdit2.DrawStyle := dsDefault;
+    CDEdit2.Lines.Add('CDEdit1');
+  finally
+    CDEdit2.EndUpdate;
+  end;
+  CDListView1.BeginUpdate;
+  try
+    CDListView1.Parent := Self;
+    CDListView1.Left := 296;
+    CDListView1.Height := 190;
+    CDListView1.Top := 176;
+    CDListView1.Width := 664;
+    with CDListView1.Columns.Add do
+    begin 
+      with CDListView1.Columns.Items[ID] do
+      begin 
+        Caption := 'Coluna';
+        Width := 300;
+      end;
+    end;
+    with CDListView1.Columns.Add do
+    begin 
+      with CDListView1.Columns.Items[ID] do
+      begin 
+        Caption := 'Colun2';
+        Width := 166;
+      end;
+    end;
+    CDListView1.ScrollBars := ssBoth;
+    CDListView1.ViewStyle := vsReport;
+  finally
+    CDListView1.EndUpdate;
+  end;
+  CDRadioButton1.BeginUpdate;
+  try
+    CDRadioButton1.Parent := Self;
+    CDRadioButton1.Left := 666;
+    CDRadioButton1.Height := 19;
+    CDRadioButton1.Top := 17;
+    CDRadioButton1.Width := 147;
+    CDRadioButton1.Caption := 'CDRadioButton1';
+    CDRadioButton1.DrawStyle := dsDefault;
+  finally
+    CDRadioButton1.EndUpdate;
+  end;
+  CDRadioButton2.BeginUpdate;
+  try
+    CDRadioButton2.Parent := Self;
+    CDRadioButton2.Left := 666;
+    CDRadioButton2.Height := 19;
+    CDRadioButton2.Top := 40;
+    CDRadioButton2.Width := 147;
+    CDRadioButton2.Caption := 'CDRadioButton2';
+    CDRadioButton2.DrawStyle := dsDefault;
+  finally
+    CDRadioButton2.EndUpdate;
+  end;
+  CDRadioButton3.BeginUpdate;
+  try
+    CDRadioButton3.Parent := Self;
+    CDRadioButton3.Left := 664;
+    CDRadioButton3.Height := 19;
+    CDRadioButton3.Top := 64;
+    CDRadioButton3.Width := 147;
+    CDRadioButton3.Caption := 'CDRadioButton3';
+    CDRadioButton3.Checked := True;
+    CDRadioButton3.DrawStyle := dsDefault;
+  finally
+    CDRadioButton3.EndUpdate;
+  end;
+  CDStaticText1.BeginUpdate;
+  try
+    CDStaticText1.Parent := Self;
+    CDStaticText1.Left := 136;
+    CDStaticText1.Height := 20;
+    CDStaticText1.Top := 328;
+    CDStaticText1.Width := 120;
+    CDStaticText1.Caption := 'CDStaticText1';
+    CDStaticText1.DrawStyle := dsDefault;
+  finally
+    CDStaticText1.EndUpdate;
+  end;
+  CDCheckBox1.BeginUpdate;
+  try
+    CDCheckBox1.Parent := Self;
+    CDCheckBox1.Left := 544;
+    CDCheckBox1.Height := 19;
+    CDCheckBox1.Top := 112;
+    CDCheckBox1.Width := 120;
+    CDCheckBox1.DrawStyle := dsDefault;
+    CDCheckBox1.Caption := 'CDCheckBox1';
+  finally
+    CDCheckBox1.EndUpdate;
+  end;
+  CDCheckBox2.BeginUpdate;
+  try
+    CDCheckBox2.Parent := Self;
+    CDCheckBox2.Left := 544;
+    CDCheckBox2.Height := 19;
+    CDCheckBox2.Top := 140;
+    CDCheckBox2.Width := 120;
+    CDCheckBox2.DrawStyle := dsDefault;
+    CDCheckBox2.Caption := 'CDCheckBox2';
+  finally
+    CDCheckBox2.EndUpdate;
+  end;
+finally
+  EndUpdate
+end;
+{@PAS2JS_END}

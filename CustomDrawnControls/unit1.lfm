@@ -1,0 +1,119 @@
+object WForm1: TWForm1
+  Left = 359
+  Height = 634
+  Top = 151
+  Width = 1128
+  AlphaBlend = False
+  AlphaBlendValue = 255
+  Caption = 'WForm1'
+  ClientHeight = 634
+  ClientWidth = 1128
+  OnCreate = FormCreate
+  object CDButton1: TCDButton
+    Left = 51
+    Height = 48
+    Top = 24
+    Width = 397
+    Caption = 'CDButton1'
+    DrawStyle = dsDefault
+    OnClick = CDButton1Click
+    TabOrder = 0
+    TabStop = True
+  end
+  object CDButton2: TCDButton
+    Left = 51
+    Height = 48
+    Top = 80
+    Width = 397
+    Caption = 'CDButton2'
+    DrawStyle = dsDefault
+    TabOrder = 1
+    TabStop = True
+  end
+  object CDEdit1: TCDEdit
+    Left = 51
+    Height = 41
+    Top = 144
+    Width = 193
+    DrawStyle = dsDefault
+    Lines.Strings = (
+      'gsfgsfgsfg'
+    )
+  end
+  object CDEdit2: TCDEdit
+    Left = 51
+    Height = 41
+    Top = 224
+    Width = 193
+    DrawStyle = dsDefault
+    Lines.Strings = (
+      'CDEdit1'
+    )
+  end
+  object CDListView1: TCDListView
+    Left = 296
+    Height = 190
+    Top = 176
+    Width = 664
+    Columns = <    
+      item
+        Caption = 'Coluna'
+        Width = 300
+      end    
+      item
+        Caption = 'Colun2'
+        Width = 166
+      end>
+    ScrollBars = ssBoth
+    ViewStyle = vsReport
+  end
+  object CDRadioButton1: TCDRadioButton
+    Left = 666
+    Height = 19
+    Top = 17
+    Width = 147
+    Caption = 'CDRadioButton1'
+    DrawStyle = dsDefault
+  end
+  object CDRadioButton2: TCDRadioButton
+    Left = 666
+    Height = 19
+    Top = 40
+    Width = 147
+    Caption = 'CDRadioButton2'
+    DrawStyle = dsDefault
+  end
+  object CDRadioButton3: TCDRadioButton
+    Left = 664
+    Height = 19
+    Top = 64
+    Width = 147
+    Caption = 'CDRadioButton3'
+    Checked = True
+    DrawStyle = dsDefault
+  end
+  object CDStaticText1: TCDStaticText
+    Left = 136
+    Height = 20
+    Top = 328
+    Width = 120
+    Caption = 'CDStaticText1'
+    DrawStyle = dsDefault
+  end
+  object CDCheckBox1: TCDCheckBox
+    Left = 544
+    Height = 19
+    Top = 112
+    Width = 120
+    DrawStyle = dsDefault
+    Caption = 'CDCheckBox1'
+  end
+  object CDCheckBox2: TCDCheckBox
+    Left = 544
+    Height = 19
+    Top = 140
+    Width = 120
+    DrawStyle = dsDefault
+    Caption = 'CDCheckBox2'
+  end
+end
